@@ -4,10 +4,9 @@ $sansSerif: "Poppins";
 // Colors
 $primary: #2f2105;
 $secondary: #f6ebda;
-$secondary-alt: #f0dcb6;
 $accent: #ff902a;
-$headingFg: #5a2e20;
-$contentFg: #97938e;
+$headingFg: $primary;
+$contentFg: #7e7d7a;
 
 // Shadow
 $shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
