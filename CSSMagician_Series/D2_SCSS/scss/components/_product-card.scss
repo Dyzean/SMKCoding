@@ -1,0 +1,68 @@
+.product-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: $shadowSm;
+
+  .card-image {
+    position: relative;
+
+    .rating-badge {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      border-radius: 9999px;
+      background-color: white;
+      padding: 0.2rem 0.5rem;
+
+      span {
+        color: $headingFg;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      // Stars SVG
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .product-image {
+      border-radius: 8px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card-body {
+    .card-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.7rem;
+
+      .title,
+      .price {
+        color: $headingFg;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+
+    .card-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+
+      .description {
+        color: $contentFg;
+        max-width: 50%;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}

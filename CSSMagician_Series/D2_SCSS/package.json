@@ -1,4 +1,10 @@
 {
+  "name": "d2-scss",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch ./scss:./css",
+    "build": "sass ./scss/styles.scss:./css/styles.min.css --style compressed"
+  },
   "devDependencies": {
     "sass": "^1.71.1"
   }
