@@ -38,11 +38,15 @@
   }
 
   .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.7rem;
+
     .card-heading {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 0.7rem;
 
       .title,
       .price {
@@ -56,7 +60,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 0.5rem;
 
       .description {
         color: $contentFg;

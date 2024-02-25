@@ -340,11 +340,16 @@ h2.heading span {
   width: 100%;
   object-fit: cover;
 }
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
 .product-card .card-body .card-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.7rem;
 }
 .product-card .card-body .card-heading .title,
 .product-card .card-body .card-heading .price {
@@ -356,7 +361,6 @@ h2.heading span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.5rem;
 }
 .product-card .card-body .card-details .description {
   color: #7e7d7a;
